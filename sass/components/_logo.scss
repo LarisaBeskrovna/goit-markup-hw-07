@@ -5,17 +5,17 @@
     letter-spacing: 0.03em;
     text-decoration: none; 
     
-}
-.logo__basic{
+    &__basic{
     
-    color: var(--color-logo);  
-}
-.logo__footer{
-    font-family: 'Raleway';
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-  color: var(--color-button); 
-  text-decoration: none; 
-
+        color: var(--color-logo);  
+    }
+    &__footer{
+        font-family: 'Raleway';
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+      color: var(--color-button); 
+      text-decoration: none; 
+    
+    }
 }
