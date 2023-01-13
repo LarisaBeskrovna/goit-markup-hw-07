@@ -333,8 +333,10 @@ a {
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-field__input:focus, .form-field__icon {
+.form-field__input:focus {
   border-color: var(--color-logo);
+}
+.form-field__input:focus-within + .form-field__icon {
   fill: var(--color-logo);
 }
 .form-field__icon {

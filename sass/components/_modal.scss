@@ -71,11 +71,13 @@ color: var(--color-ligt);
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-   &__input:focus, &__icon {
+   &__input:focus{
         border-color: var(--color-logo);
-        fill: var(--color-logo); 
     }         
+        &__input:focus-within+ &__icon {
         
+        fill: var(--color-logo); 
+    }     
     &__icon{
         position: absolute;
         top: 50%;
